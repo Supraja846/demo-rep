@@ -14,8 +14,7 @@ df=pd.read_csv('mckinsey.csv')
 df.head()
 
 #filter year between 1950 and 1955
-#df[(df['year']>=1950) & (df['year']<=1955)]
-#print(df[df['life_exp'].max()==df['life_exp']])#['country']
+
 
 
 #a=df['gdp_cap']/df['life_exp']
